@@ -1,0 +1,17 @@
+{
+  "name": "algebraic-eff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run": "node -r esbuild-register example.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "esbuild": "^0.14.13",
+    "esbuild-register": "^3.3.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.0"
+  }
+}
